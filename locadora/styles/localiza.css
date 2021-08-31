@@ -1,0 +1,356 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+
+#article1{
+    font-family: 'Noto Sans TC', sans-serif;
+    display: grid;
+}
+
+#headera1{
+    display: flex;
+}
+
+.a{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    width: 16%;
+    padding: 10px 0 10px 0 ;
+    background-color: bisque;
+}
+
+.a:hover{
+    opacity: 90%;
+}
+
+#a1{
+    background-color: #255C48;
+    padding: 10px 0 10px 0;
+
+}
+
+#a2{
+    background-color: #1C4962;
+    padding: 10px 0 10px 0;
+}
+
+#a3{
+    background-color: #EF7732;
+    padding: 10px 0 10px 0;
+
+}
+
+#a4{
+    color: #255C48;
+    background-color: #8AE247;
+    padding: 10px 0 10px 0;
+    width: 280px;
+
+}
+
+#a5{
+    color: black;
+    background-color: #61D797;
+    padding: 10px 0 10px 0;
+}
+
+#a6{
+    color: #3dbe7b;
+    background-color: white;
+}
+
+/*=============================================================================*/
+
+#header2{
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100px;
+    min-width: 79vw;
+    margin-bottom: 40px;
+    position: static;
+    background-color: #00984a;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+}
+
+#nomeLocaliza{
+    color: white;
+    font-size: 1.8em;
+    font-style: italic;
+    margin-left: 20px;
+    margin-right: 65px;
+}
+
+.nomeLocaliza{
+    width:  10rem;
+    height: 5rem;
+}
+
+#menu2{
+    font-size: .8rem; 
+    text-align: center;
+}
+
+.menu2{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#header_minhas_reservas{
+    font-size: 0.7em;
+    display: grid;
+    margin-right: 20px;
+}
+
+#header_minhas_reservas a{
+    color: #d4db26;
+    text-decoration: none;
+}
+
+#minhas_reservas{
+    margin-bottom: 20px;
+}
+
+/*=========================================*/
+
+#article2{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: normal;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#titulo_carros{
+    color: #004a34;
+    margin-left: 20px;
+}
+
+.box-carros{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #004a34;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.212);
+    margin: 20px;
+}
+
+.img-carros{
+    max-width: 320px;
+    max-height: 150px;
+    margin-left: 20px;
+}
+
+.grupo{
+    text-align: center;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 10px;
+    margin-left: 40px;
+
+}
+
+.card-infor{
+    background-color: #00984a;
+    width: 250px;
+    height: 250px;
+    border-radius: 0 10px 10px 0;
+    color: white;
+    font-weight: 400;
+}
+
+.infor{
+    margin: 15px 0 0px 15px;
+    font-weight: 500;
+}
+
+.modelo{
+    margin-left: 25px;
+}
+
+.preco{
+    margin-left: 25px;
+}
+
+.cor {
+    margin-left: 25px;
+
+}
+
+.potencia{
+    margin-left: 25px;
+    margin-bottom: 20px;
+
+}
+
+.confirmar{
+    display: block;
+    margin: auto;
+    width: 150px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+
+}
+
+.confirmar:hover{
+    background-color: #d4db26;
+    cursor: Pointer;
+}
+
+/*=========================================*/
+
+#resumo_reserva{
+    background-color: white;
+    margin: 55px 0 0 20px;
+    width: 400px;
+    max-height: 400px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.212);
+}
+
+#resumo{
+    background-color: #004a34;
+    height: 50px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+#resumo h2{
+    padding-top: 5px;
+    text-align: center;
+    color: white;    
+    font-weight: 500;
+}
+
+/*#infor_agendamento{
+}*/
+
+.nome_infor{
+    margin: 15px 0 5px 20px;
+    color: #00984a;
+}
+
+.data_hora_infor{
+    margin: 0 0 3px 20px;
+}
+
+.local_infor{
+    margin: 0 0 0 20px;
+    color: #6d7278;
+}
+
+@media (min-width: 1401px){  
+    .a{
+        width: 17%;
+    }
+
+    /*==========================================================*/
+
+    #menu2{
+        font-size: 1rem; 
+    }
+
+    #header_minhas_reservas{
+        font-size: 0.9em;
+    }
+
+    .nomeLocaliza{
+        width:  15rem;
+        height: 8rem;
+    }
+
+    /*==========================================================*/
+
+    #titulo_carros{
+        font-size: 1.2rem;
+    }
+    
+    .box-carros{
+        width: 700px;
+        height: 300px;
+    }
+    
+    .img-carros{
+        max-width: 350px;
+        max-height: 180px;
+        margin-left: 40px;
+    }
+    
+    .grupo{
+        margin: 0 0 20px 45px;
+    }
+    
+    .card-infor{
+        width: 270px;
+        height: 300px;
+    }
+    
+    .infor{
+        font-size: 1.7em;
+    }
+    
+    .modelo{
+        font-size: 1.1rem;
+    }
+    
+    .preco{
+        font-size: 1.1rem;
+    }
+    
+    .cor {
+        font-size: 1.1rem;
+    
+    }
+    
+    .potencia{
+        font-size: 1.1rem;
+    }
+    
+    .confirmar{
+        width: 170px;
+        height: 60px;
+        margin-top: 40px;    
+    }
+    
+    /*==========================================================*/
+
+    #resumo_reserva{
+        width: 400px;
+    }
+    
+    #resumo{
+        height: 60px;
+        font-size: 1.1rem;
+    }
+    
+    .nome_infor{
+        font-size: 1.4rem;
+    }
+    
+    .data_hora_infor{
+        font-size: 1.1rem;
+        margin-right: 70px;
+    }
+    
+    .local_infor{
+        font-size: 1.1rem;
+    }  
+}
+
+@media (min-width: 1850px){  
+    .a{
+        width: 18%;
+    }
+}

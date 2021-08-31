@@ -1,0 +1,382 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+#article1{
+    display: grid;
+}
+
+#headera1{
+    display: flex;
+}
+
+.a{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    width: 16%;
+    padding: 10px 0 10px 0 ;
+    background-color: bisque;
+}
+
+.a:hover{
+    opacity: 90%;
+}
+
+#a1{
+    background-color: #255C48;
+    padding: 10px 0 10px 0;
+
+}
+
+#a2{
+    background-color: #1C4962;
+    padding: 10px 0 10px 0;
+}
+
+#a3{
+    background-color: #EF7732;
+    padding: 10px 0 10px 0;
+
+}
+
+#a4{
+    color: #255C48;
+    background-color: #8AE247;
+    padding: 10px 0 10px 0;
+    width: 280px;
+
+}
+
+#a5{
+    color: black;
+    background-color: #61D797;
+    padding: 10px 0 10px 0;
+}
+
+#a6{
+    color: #3dbe7b;
+    background-color: white;
+}
+
+/*=============================================================================*/
+
+#header2{
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100px;
+    min-width: 79vw;
+    margin-bottom: 40px;
+    position: static;
+    background-color: #00984a;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+}
+
+#nomeLocaliza{
+    color: white;
+    font-size: 1.8em;
+    font-style: italic;
+    margin-left: 20px;
+    margin-right: 65px;
+}
+
+.nomeLocaliza{
+    width:  10rem;
+    height: 5rem;
+}
+
+#menu2{
+    font-size: .8rem; 
+    text-align: center;
+}
+
+.menu2{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#header_minhas_reservas{
+    font-size: 0.7em;
+    display: grid;
+    margin-right: 20px;
+}
+
+#header_minhas_reservas a{
+    color: #d4db26;
+    text-decoration: none;
+}
+
+#minhas_reservas{
+    margin-bottom: 20px;
+}
+
+/*==========================================*/
+
+#dadosPessoais{
+    margin: 0 0 0 50px;
+    color: #004a34;
+    
+}
+
+#pDadosPessoais{
+    margin: 10px 0 30px 60px;
+    color: #6d7278;
+}
+
+/*=========================================*/
+
+#article2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/*==========    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+===============================*/
+
+#dados{
+    margin-top: 30px;
+}
+
+
+
+input,select{
+    margin-bottom: 30px;
+    padding: 10px;
+    width: 270px;
+    height: 40px;
+    border: none;
+    border-bottom: 2px solid #75cc9891;    
+}
+
+input:focus,select:focus{
+    border-bottom: 2px;
+}
+
+
+#dados label{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    color: #1D4B34;
+}
+
+#botaoReservar{
+    text-align: center;
+}
+
+
+
+#reservar{
+    background-color: #D4DB26;
+    color: #1D4B34;
+    width: 150px;
+    height: 35px;
+    border-radius: 10px;
+    border-style: none;
+    cursor: Pointer;
+    margin-bottom: 50px;
+    margin-top: 20px;
+}
+
+
+/*=========================================*/
+
+#resumo_reserva{
+    background-color: white;
+    margin: 35px 0 0 20px;
+    width: 400px;
+    height: 654px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.212);
+}
+
+#resumo{
+    background-color: #004a34;
+    height: 50px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+#resumo h2{
+    padding-top: 5px;
+    text-align: center;
+    color: white;    
+    font-weight: 500;
+}
+
+/*#infor_agendamento{
+}*/
+
+.h3{
+    margin: 15px 0 5px 20px;
+    color: #00984a;
+}
+
+.p{
+    margin: 0 0 3px 20px;
+}
+
+.pGrey{
+    margin: 0 0 0 20px;
+    color: #6d7278;
+}
+
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+#tituloTotal{
+    margin-right: 20px;    
+}
+
+#precoTotal{
+    margin-right: 20px;
+    margin-bottom: 50px;
+  
+}
+
+#precofinal{
+    background-color: #00984a;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-align: right;
+    border-radius: 0 0 10px 10px;
+}
+
+#precofinal_p_amarelo{
+    color: #d4db26;
+    margin: 20px 20px 10px 0;
+}
+
+#precoFinal{
+    color: white;
+    margin: 10px 20px 10px 0;
+}
+
+#precofinal_p_desconto{
+    color: white;
+    margin: 10px 20px 20px 0;
+}
+
+@media (min-width: 1401px){  
+    .a{
+        width: 17%;
+    }
+
+    /*==========================================================*/
+
+    #menu2{
+        font-size: 1rem; 
+    }
+
+    #header_minhas_reservas{
+        font-size: 0.9em;
+    }
+
+    .nomeLocaliza{
+        width:  15rem;
+        height: 8rem;
+    }
+
+    /*==========================================*/
+
+    #dadosPessoais{
+        font-size: 2.3rem;
+    }
+
+    #pDadosPessoais{
+        font-size: 1.2rem;
+    }
+
+    /*=========================================*/    
+
+    #dados{
+        font-size: 1.2rem;
+
+    }
+
+    input,select{
+        width: 300px;
+        height: 50px;
+        padding-left: 15px;
+    }
+
+    #reservar{
+        width: 170px;
+        height: 40px;
+        margin-bottom: 150px;
+    }  
+    
+    /*=========================================*/
+
+    #resumo_reserva{
+        margin: 35px 0 0 20px;
+        width: 400px;
+        height: 752px;
+    }
+
+    #resumo{
+        height: 60px;
+        font-size: 1.1rem;
+    }
+
+    #resumo h2{
+        padding-top: 5px;
+    }
+
+    .h3{
+        font-size: 1.4rem;
+    }
+
+    .p{
+        font-size: 1.1rem;
+        margin-right: 70px;
+    }
+
+    .pGrey{
+        font-size: 1.1rem;
+    }
+
+    #tituloTotal{
+        font-size: 1.2rem;
+    }
+
+    #precoTotal{
+        font-size: 1.1rem;    
+    }
+
+    #precofinal_p_amarelo{
+        font-size: 1.1rem;
+    }
+
+    #precoFinal{
+        font-size: 2.2rem;
+        margin: 5px 20px 5px 0;
+
+    }
+
+    #precofinal_p_desconto{
+        font-size: 1.1rem;
+    }
+
+    /*=========================================*/
+
+}
+
+@media (min-width: 1850px){  
+    .a{
+        width: 18%;
+    }
+}
