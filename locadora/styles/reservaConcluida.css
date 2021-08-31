@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@500;700;900&family=Nunito:ital,wght@0,400;1,600;1,700;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Noto Sans TC', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #1D4A33;
+}
+
+
+#article1{
+    display: grid;
+}
+
+#headera1{
+    display: flex;
+}
+
+.a{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 400;
+    text-align: center;
+    color: white;
+    width: 16%;
+    padding: 10px 0 10px 0 ;
+    background-color: bisque;
+}
+
+.a:hover{
+    opacity: 90%;
+}
+
+#a1{
+    background-color: #255C48;
+    padding: 10px 0 10px 0;
+
+}
+
+#a2{
+    background-color: #1C4962;
+    padding: 10px 0 10px 0;
+}
+
+#a3{
+    background-color: #EF7732;
+    padding: 10px 0 10px 0;
+
+}
+
+#a4{
+    color: #255C48;
+    background-color: #8AE247;
+    padding: 10px 0 10px 0;
+    width: 280px;
+
+}
+
+#a5{
+    color: black;
+    background-color: #61D797;
+    padding: 10px 0 10px 0;
+}
+
+#a6{
+    color: #3dbe7b;
+    background-color: white;
+}
+
+/*=============================================================================*/
+
+#header2{
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100px;
+    min-width: 79vw;
+    margin-bottom: 40px;
+    position: static;
+    background-color: #00984a;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+}
+
+#nomeLocaliza{
+    color: white;
+    font-size: 1.8em;
+    font-style: italic;
+    margin-left: 20px;
+    margin-right: 65px;
+}
+
+.nomeLocaliza{
+    width:  10rem;
+    height: 5rem;
+}
+
+#menu2{
+    font-size: .8rem; 
+    text-align: center;
+}
+
+.menu2{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#header_minhas_reservas{
+    font-size: 0.7em;
+    display: grid;
+    margin-right: 20px;
+}
+
+#header_minhas_reservas a{
+    color: #d4db26;
+    text-decoration: none;
+}
+
+#minhas_reservas{
+    margin-bottom: 20px;
+}
+
+/*=============================*/
+
+main article{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#textReserva{
+    text-align: center;
+    margin-bottom: 30px;
+    color: white;
+}
+
+#Carro{
+    margin-left: 20px;
+    height: 420px;
+    width: 300px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    background-color: white;
+}
+
+#dados{
+    height: 420px;
+    width: 300px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    background-color: white;
+}
+
+#reserva{
+    height: 420px;
+    width: 300px;
+    margin-right: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+    border-radius: 10px;
+    background-color: white;
+}
+
+.h2{
+    padding: 15px 20px 15px 20px;
+    border-radius: 10px 10px 0 0;
+    color: white;
+    background-color: #00984a;
+}
+
+.h3{
+    color: #3ab169;
+    margin: 0 20px 3px 20px;
+}
+
+.p {
+    margin: 0 20px 3px 20px;
+    color: rgb(27, 27, 27);
+}
+
+
+@media (min-width: 1401px){  
+    .a{
+        width: 17%;
+    }
+
+    /*==========================================================*/
+
+    #menu2{
+        font-size: 1rem; 
+    }
+
+    #header_minhas_reservas{
+        font-size: 0.9em;
+    }
+
+    .nomeLocaliza{
+        width:  15rem;
+        height: 8rem;
+    }
+
+    /*==========================================*/
+
+    #textReserva{
+        font-size: 1.6rem;
+    }
+    
+    #Carro{
+        height: 450px;
+        width: 340px;
+    }
+    
+    #dados{
+        height: 450px;
+        width: 340px;
+    }
+    
+    #reserva{
+        height: 450px;
+        width: 340px;
+    }
+    
+    .h2{
+        font-size: 1.6rem;
+    }
+    
+    .h3{
+        font-size: 1.3rem;
+        margin-top: 5px;
+    }
+    
+    .p {
+        font-size: 1.1rem;
+    }
+}
+
+@media (min-width: 1850px){  
+    .a{
+        width: 18%;
+    }
+}

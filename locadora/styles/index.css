@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,400;1,600;1,700;1,900&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+    background-color: #004a34;
+}
+
+#article1{
+    display: grid;
+}
+
+#headera1{
+    display: flex;
+}
+
+.a{
+    text-decoration: none;
+    font-size: small;
+    font-weight: 200;
+    text-align: center;
+    color: white;
+    width: 16%;
+    padding: 10px 0 10px 0 ;
+    background-color: bisque;
+}
+
+.a:hover{
+    opacity: 90%;
+}
+
+#a1{
+    background-color: #255C48;
+    padding: 10px 0 10px 0;
+
+}
+
+#a2{
+    background-color: #1C4962;
+    padding: 10px 0 10px 0;
+}
+
+#a3{
+    background-color: #EF7732;
+    padding: 10px 0 10px 0;
+
+}
+
+#a4{
+    color: #255C48;
+    background-color: #8AE247;
+    padding: 10px 0 10px 0;
+    width: 280px;
+
+}
+
+#a5{
+    color: black;
+    background-color: #61D797;
+    padding: 10px 0 10px 0;
+}
+
+#a6{
+    color: #3dbe7b;
+    background-color: white;
+}
+
+/*=============================================================================*/
+
+#header2{
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100px;
+    min-width: 79vw;
+    position: static;
+    background-color: #00984a;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+}
+
+#nomeLocaliza{
+    color: white;
+    font-size: 1.8em;
+    font-style: italic;
+    margin-left: 20px;
+    margin-right: 65px;
+}
+
+.nomeLocaliza{
+    width:  10rem;
+    height: 5rem;
+}
+
+#menu2{
+    font-size: .8rem; 
+    text-align: center;
+}
+
+.menu2{
+    color: white;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+#header_minhas_reservas{
+    font-size: 0.7em;
+    display: grid;
+    margin-right: 20px;
+}
+
+#header_minhas_reservas a {
+    color: #d4db26;
+    text-decoration: none;
+}
+
+#minhas_reservas{
+    margin-bottom: 20px;
+}
+
+/*=============================================================================*/
+
+#header3{
+    background-color: #004a34;
+    text-decoration: none;
+    display: flex;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100px;
+    min-width: 79vw;
+    position: static;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.212);
+    position: static;
+}
+
+#local_retirada{
+    width: 40vw;
+    height: 8vh;
+    margin-left: 6vh;
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+#data_retirada{
+    width: 13vw;
+    height: 8vh;
+    margin: 6vh 40px 0 40px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 15px;
+
+}
+#hora_retirada{
+    width: 13vw;
+    height: 8vh;
+    margin: 6vh 40px 0 0;
+    border-radius: 5px;
+    border-style: none;
+    padding: 15px;
+
+}
+
+
+#local_devolucao{
+    width: 40vw;
+    height: 8vh;
+    margin-left: 6vh;
+    border-style: none;
+    border-radius: 5px;
+    padding: 15px;
+}
+#data_devolucao{
+    width: 13vw;
+    height: 8vh;
+    margin: 6vh 40px 0 40px;
+    border-radius: 5px;
+    border-style: none;
+    padding: 15px;
+
+}
+#hora_devolucao{
+    width: 13vw;
+    height: 8vh;
+    margin: 6vh 40px 0 0;
+    border-radius: 5px;
+    border-style: none;
+    padding: 15px;
+
+}
+
+#bnt_continuar{
+    display: flex;
+    justify-content: space-between;
+}
+
+#continuar{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: #1D4B34;
+    height: 3em;
+    width: 9em;
+    margin: 3vh;
+    border-radius: 5px;
+    border-style: none;
+    background-color: #E8F032;
+}
+
+@media (min-width: 1401px){  
+    .a{
+        width: 17%;
+    }
+
+
+    #menu2{
+        font-size: 1rem; 
+    }
+
+    #header_minhas_reservas{
+        font-size: 0.9em;
+    }
+
+    .nomeLocaliza{
+        width:  15rem;
+        height: 8rem;
+    }
+}
+
+@media (min-width: 1850px){  
+    .a{
+        width: 18%;
+    }
+}
